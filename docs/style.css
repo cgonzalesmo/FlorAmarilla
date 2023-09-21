@@ -25,7 +25,11 @@ body {
 .hidden {
   display: none;
 }
-
+.audio-player {
+  position: absolute;
+  bottom: 10px; /* Ajusta el valor según la posición deseada */
+  transform: scale(0.7);
+}
 .show {
   display: block;
 }
